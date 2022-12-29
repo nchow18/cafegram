@@ -7,20 +7,14 @@ function App() {
         side
       </div>
       <div className="main-content">
-        <div className="header">
-          <div className="header-content flex-column-center">
-            header
-          </div>
+        <div className="header flex-column-center">
+          header
         </div>
-        <div className="body">
-          <div className="body-content flex-column-center">
-            Body
-          </div>
+        <div className="body flex-column-center">
+          body
         </div>
-        <div className="footer">
-          <div className="footer-content flex-column-center">
-            footer
-          </div>
+        <div className="footer flex-column-center">
+          footer
         </div>
       </div>
     </div>
