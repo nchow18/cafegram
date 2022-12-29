@@ -67,7 +67,22 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: calc(100% - 75px);
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+.user-story {
+  padding: 10px;
+  border-radius: 50%;
+  border: 2px solid black;
+  margin: 2px;
+  width: 200px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 1500px) {
