@@ -4,7 +4,7 @@ import Stories from '../src/components/stories';
 function App() {
   return (
     <div className="App">
-      <div className="side-bar">
+      {/* <div className="side-bar">
         <div className="side-bar-top">
           top
         </div>
@@ -16,16 +16,14 @@ function App() {
         </div>
       </div>
       <div className="main-content">
-        <div className="header flex-column-center">
-          <Stories/>
-        </div>
         <div className="body flex-column-center">
           body
         </div>
         <div className="footer flex-column-center">
           footer
         </div>
-      </div>
+      </div> */}
+      <Stories/>
     </div>
   );
 }
