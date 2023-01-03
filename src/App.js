@@ -4,7 +4,7 @@ import Stories from '../src/components/stories';
 function App() {
   return (
     <div className="App">
-      {/* <div className="side-bar">
+      <div className="side-bar">
         <div className="side-bar-top">
           top
         </div>
@@ -22,7 +22,7 @@ function App() {
         <div className="footer flex-column-center">
           footer
         </div>
-      </div> */}
+      </div>
       <Stories/>
     </div>
   );
