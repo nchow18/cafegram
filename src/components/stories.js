@@ -14,7 +14,7 @@ function Stories(props) {
         time: ''
       }
     ],
-    post: [
+    posts: [
       {
         post_image: [
           {
@@ -23,7 +23,7 @@ function Stories(props) {
           }
         ],
         post_date: '',
-        likes: '',
+        likes: ['nathan','anna'],
         post_details: '',
         comments: [
           {
@@ -36,6 +36,8 @@ function Stories(props) {
       }
     ]
   }
+
+  console.log(user);
 
   const stories = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17];
 
