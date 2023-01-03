@@ -6,6 +6,7 @@ function Stories(props) {
 
   const user = {
     username: 'nathanchow',
+    profile_picture: '',
     story: [
       {
         video: '',
@@ -17,7 +18,8 @@ function Stories(props) {
       {
         post_image: [
           {
-            image: '',
+            image_id: '',
+            image_location: '',
           }
         ],
         post_date: '',
