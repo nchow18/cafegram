@@ -4,7 +4,8 @@ function Stories(props) {
 
   const [isStories, setStories] = useState([0,1,2,3,4,5,6,7,8,9,10])
 
-  const user = {
+  const users = [
+    {
     username: 'nathanchow',
     profile_picture: '',
     story: [
@@ -35,18 +36,12 @@ function Stories(props) {
         ]
       }
     ]
-  }
-
-  console.log(user);
-
-  const stories = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17];
-
-  console.log(stories);
+  }]
 
   return (
     <div className="stories-container">
-      {stories.map((number, index) => (
-        <div key={number} className="user-story">{number}</div>
+      {users.map((user, index) => (
+        <div key={user.username} className="user-story">{user.username}</div>
       ))}
     </div>
   )
